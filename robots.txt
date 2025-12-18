@@ -6,4 +6,5 @@ Disallow: /images/
 
 Allow: /
 
-Sitemap: https://ВАШ_ЛОГИН.github.io/НАЗВАНИЕ_РЕПОЗИТОРИЯ/sitemap.xml
+
+Sitemap: https://chuviiirla.github.io/lab8/sitemap.xml
