@@ -292,4 +292,88 @@ footer {
     section {
         padding: 20px;
     }
+
+    .text-content {
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.text-content p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.page-intro {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.principles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.principle-card {
+    padding: 25px;
+    background: #f9f5ff;
+    border-radius: 10px;
+    border-left: 4px solid #8a2be2;
+}
+
+.principle-card h3 {
+    margin-top: 0;
+    color: #4b0082;
+}
+
+.text-content ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+.text-content li {
+    margin-bottom: 12px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.text-content li:before {
+    content: "✦";
+    color: #8a2be2;
+    position: absolute;
+    left: 0;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #f0e6ff 0%, #e0d6ff 100%);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid #8a2be2;
+    color: #8a2be2;
+}
+
+.btn-secondary:hover {
+    background-color: #8a2be2;
+    color: white;
+}
+}
 }
